@@ -1,0 +1,44 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.55" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#05060B"/>
+    </linearGradient>
+
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 180) rotate(140) scale(520 360)">
+      <stop stop-color="#5EB8FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#5EB8FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orangeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 520) rotate(-35) scale(520 360)">
+      <stop stop-color="#FF8A2A" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#FF8A2A" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="675">
+      <stop stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#blueGlow)"/>
+  <rect width="1200" height="675" fill="url(#orangeGlow)"/>
+
+  <!-- linhas finas -->
+  <path d="M0 140H1200" stroke="#FFFFFF" stroke-opacity="0.06"/>
+  <path d="M0 380H1200" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <path d="M220 0V675" stroke="#FFFFFF" stroke-opacity="0.04"/>
+  <path d="M760 0V675" stroke="#FFFFFF" stroke-opacity="0.04"/>
+
+  <!-- card glass -->
+  <rect x="80" y="110" width="1040" height="455" rx="28" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- “marca d’água” sutil -->
+  <g opacity="0.18">
+    <text x="130" y="300" font-family="Inter, ui-sans-serif, system-ui" font-size="64" font-weight="700" fill="#5EB8FF">Caju</text>
+    <text x="130" y="370" font-family="Inter, ui-sans-serif, system-ui" font-size="64" font-weight="700" fill="#FF8A2A">Space</text>
+    <text x="130" y="420" font-family="Inter, ui-sans-serif, system-ui" font-size="18" fill="#FFFFFF" fill-opacity="0.65">Imagem não cadastrada</text>
+  </g>
+</svg>

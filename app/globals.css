@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-brand-blue: #5EB8FF;
+  --color-brand-darkblue: #0E3B5F;
+  --color-brand-orange: #FF8A42;
+  --color-brand-offwhite: #F7F9FB;
+  --color-brand-lightgray: #E6E9EE;
+
+  --color-caju-500: #F77411;
+  --color-caju-600: #D35A0D;
+  --color-caju-700: #A3410A;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  body {
+    @apply text-slate-100 antialiased;
+    font-family: "Inter", system-ui, sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    background-color: #020617;
+
+    background-image:
+      radial-gradient(900px 500px at 15% 10%, rgba(255, 138, 66, 0.20), transparent 55%),
+      radial-gradient(900px 500px at 85% 15%, rgba(94, 184, 255, 0.12), transparent 55%),
+      radial-gradient(700px 420px at 60% 75%, rgba(247, 116, 17, 0.10), transparent 60%),
+      radial-gradient(1200px 700px at 50% 120%, rgba(14, 59, 95, 0.16), transparent 55%);
+
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold text-slate-50;
+  }
+
+  p {
+    @apply text-slate-300 leading-relaxed;
+  }
+
+  main {
+    @apply min-h-screen;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .cj-container {
+    @apply max-w-6xl mx-auto px-4;
+  }
+}
+
+select, option {
+  background-color: #0b1220;
+  color: #e2e8f0;
 }
