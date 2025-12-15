@@ -153,13 +153,6 @@ Não é necessária instalação local para execução.
 
 ## 8. Instruções de Uso
 
-- Para login do admin/operador: 
-    > Para Administrador(Admin): Email - `admin@cajuspace.dev`| PIN - `123456`
-    > Para Operador(Staff): Email - `operador@cajuspace.dev` | PIN - `123456`
-
-- Algumas das Contas já cadastradas no sistemas: 
-    > CPF - `123.456.789-01` Usuário "individual" conta única.
-    > CNPJ - `12.123.123/0001-12` Usário "company" conta empresa.
 - **Explorar espaços** – acesse a página inicial `/` ou na página `/espacos` para visualizar todos os ambientes cadastrados, clique em cada card para ver detalhes como os recursos que aquele espaço contém e a visualização melhor da imagem.
 
 - **Realizar reserva** – navegue até a página `/reservar`, selecione espaço, data, duração, informe a finalidade e a quantidade de pessoas e clique em “Buscar horários”, escolha um horário livre, e finalize.
