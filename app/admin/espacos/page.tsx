@@ -3,6 +3,9 @@ import { listSpaces } from "@/app/lib/repository/spaces.repository";
 import { Button } from "@/app/components/ui/button";
 import SpacesListClient from "@/app/admin/espacos/space-list-client";
 
+// Renderiza sob demanda (lê o banco a cada request) — não depende do banco no build.
+export const dynamic = "force-dynamic";
+
 export default async function AdminSpacesPage() {
   const spaces = await listSpaces();
 

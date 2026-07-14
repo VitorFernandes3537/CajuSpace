@@ -6,6 +6,9 @@ import { Badge } from "@/app/components/ui/badge";
 import { getSpaceById, getSpaceResourceIds } from "@/app/lib/repository/spaces.repository";
 import { supabaseAdmin } from "@/app/lib/supabase/server-client";
 
+// Renderiza sob demanda (lê o banco a cada request) — não depende do banco no build.
+export const dynamic = "force-dynamic";
+
 const FALLBACK_IMG = "/public-placeholder.svg";
 
 function money(v: number) {

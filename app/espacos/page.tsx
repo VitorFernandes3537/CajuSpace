@@ -1,6 +1,9 @@
 import { SpaceCard } from "@/app/components/spaces/space-card";
 import { listSpacesWithResources } from "@/app/lib/repository/spaces.repository";
 
+// Renderiza sob demanda (lê o banco a cada request) — não depende do banco no build.
+export const dynamic = "force-dynamic";
+
 export default async function EspacosPage() {
   const spaces = await listSpacesWithResources({ onlyActive: true, limitResourcesPerSpace: 6 });
 
