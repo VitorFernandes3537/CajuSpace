@@ -1,3 +1,45 @@
+<div align="center">
+
+# 🏢 CajuSpace — Gestão e Locação Inteligente de Espaços
+
+**Reserva inteligente de espaços para eventos** — o sistema mostra automaticamente **apenas os horários livres**, previne conflitos de agenda e separa perfis de cliente e equipe/admin.
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Postgres%20·%20Auth-3ECF8E?logo=supabase&logoColor=white)](https://supabase.com/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel&logoColor=white)](https://vercel.com/)
+
+🔗 **[App ao vivo](https://cajuspace.vercel.app)** · 📄 **[Guia de setup](SETUP.md)**
+
+</div>
+
+---
+
+## 📸 Demonstração
+
+| Início — o sistema mostra só os horários livres | Reserva com horários disponíveis |
+|:---:|:---:|
+| ![Início do CajuSpace](docs/screenshots/home.png) | ![Reserva com horários livres](docs/screenshots/reserva.png) |
+| **Minhas reservas (cliente)** | **Pagamento simulado** |
+| ![Minhas reservas](docs/screenshots/minhas-reservas.png) | ![Pagamento simulado](docs/screenshots/pagamento.png) |
+| **Dashboard gerencial (KPIs)** | **Agenda de ocupação** |
+| ![Dashboard gerencial](docs/screenshots/dashboard.png) | ![Agenda de ocupação](docs/screenshots/agenda.png) |
+
+<details>
+<summary>Mais telas — espaços, administração e visão do cliente</summary>
+
+| Listagem de espaços | Admin — gestão de espaços |
+|:---:|:---:|
+| ![Listagem de espaços](docs/screenshots/espacos.png) | ![Admin — gestão de espaços](docs/screenshots/admin-espacos.png) |
+| **Reservas no dashboard** | **Início (visão do cliente)** |
+| ![Reservas no dashboard](docs/screenshots/dashboard-reservas.png) | ![Início na visão do cliente](docs/screenshots/home-cliente.png) |
+
+</details>
+
+---
+
 # Sistema de Gerenciamento de Locação de Espaços – CajuSpace
 
 **Projeto desenvolvido para o Desafio de Programação do Programa Jovem Tech (Edital nº 001/2025)**  
@@ -144,7 +186,7 @@ Esta solução contempla integralmente os requisitos mínimos descritos no item 
 
 O sistema encontra-se publicado em ambiente de produção e pode ser acessado diretamente via navegador web.
 
-**URL do sistema em produção:**  Enviado no formulário que submeti o projeto.
+**URL do sistema em produção:** https://cajuspace.vercel.app
 
 
 Não é necessária instalação local para execução.
